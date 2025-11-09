@@ -42,7 +42,8 @@ M5Core2 V1.1.
 substitutions:
   devicename: m5core2
   upper_devicename: M5Core2 V1.1
-
+  libraries: xpower=https://github.com/lewisxhe/XPowersLib.git#v0.2.6
+  
 esphome:
   name: $devicename
   platformio_options:
